@@ -1,6 +1,6 @@
 define(function(){
 	var me = {};
-	me.url = "http://api.justsospecial.com/smiley/img/";
+	me.url = "/commonweb/smiley/img/";
 	me.model = {
 		"\\(afraid\\)":"afraid.png",
 		"\\(cry\\)":"cry.png",
@@ -20,7 +20,7 @@ define(function(){
 		"\\(tear\\)":"tear.png",
 		"\\(wink\\)":"ok.png"
 	};
-	
+
 
 	me.getSmileys=function(str){
 		if (!str) return;
@@ -33,6 +33,6 @@ define(function(){
 		}
 		return str;
 	};
-	
+
 	return me;
 });
